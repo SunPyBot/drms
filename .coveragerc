@@ -4,6 +4,8 @@ omit =
   drms/*setup_package*
   drms/extern/*
   drms/version*
+  drms/_dev/*
+  */drms/_dev/*
   */drms/conftest.py
   */drms/*setup_package*
   */drms/extern/*
