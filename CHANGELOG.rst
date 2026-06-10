@@ -1,3 +1,18 @@
+v0.9.1 (2026-06-10)
+===================
+
+Bug Fixes
+---------
+
+- Fixed a bug in parsing of hexadecimal columns. (`#169 <https://github.com/sunpy/drms/pull/169>`__)
+
+
+Documentation
+-------------
+
+- Added export status codes to docstring of `drms.ExportResult.status`. (`#156 <https://github.com/sunpy/drms/pull/156>`__)
+
+
 0.9.0 (2025-02-05)
 ==================
 
