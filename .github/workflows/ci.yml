@@ -95,6 +95,7 @@ jobs:
     with:
       submodules: false
       toxdeps: tox-pypi-filter
+      coverage: codecov-oidc
       posargs: -n 1 --dist loadgroup
       envs: |
         - linux: py312-online
