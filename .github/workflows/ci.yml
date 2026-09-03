@@ -95,16 +95,6 @@ jobs:
       submodules: false
       toxdeps: tox-pypi-filter
       coverage: codecov-oidc
-      envs: |
-  
-
-  online:
-    uses: OpenAstronomy/github-actions-workflows/.github/workflows/tox.yml@v2  # zizmor: ignore[unpinned-uses]
-    with:
-      default_python: '3.12'
-      submodules: false
-      coverage: codecov
-      toxdeps: "tox-pypi-filter"
       posargs: -n 1 --dist loadgroup
       envs: |
         - linux: py312-online
